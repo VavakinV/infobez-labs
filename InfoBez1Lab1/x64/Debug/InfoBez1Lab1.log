@@ -1,0 +1,21 @@
+﻿  Task2.cpp
+C:\Users\admin\source\repos\InfoBez\InfoBez1Lab1\Task2.cpp(107,45): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4267: инициализация: преобразование из "size_t" в "_Ty1"; возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4267:             _Ty1=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4267:         ]
+  (компиляция исходного файла "Task2.cpp")
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\admin\source\repos\InfoBez\InfoBez1Lab1\Task2.cpp(128,9):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,std::vector<int,std::allocator<int>>>::pair<unsigned __int64,std::vector<int,std::allocator<int>>&,0>(_Other1 &&,_Other2) noexcept(false)"
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=std::vector<int,std::allocator<int>> &
+          ]
+  		C:\Users\admin\source\repos\InfoBez\InfoBez1Lab1\Task2.cpp(128,9):
+  		см. первую ссылку на "std::pair<int,std::vector<int,std::allocator<int>>>::pair" в "AlarmSolver::solve"
+  
+  InfoBez1Lab1.vcxproj -> C:\Users\admin\source\repos\InfoBez\InfoBez1Lab1\x64\Debug\InfoBez1Lab1.exe
