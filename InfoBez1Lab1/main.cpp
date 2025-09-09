@@ -7,8 +7,8 @@ int main() {
     setlocale(LC_ALL, "ru");
 
     std::cout << "Выберите задание:\n";
-    std::cout << "1 - Task1 (перестановки)\n";
-    std::cout << "2 - Task2 (граф)\n";
+    std::cout << "1 - Задание 1 (Шифр)\n";
+    std::cout << "2 - Задание 2 (Сигнализации)\n";
     std::cout << "Ваш выбор: ";
 
     int choice;
